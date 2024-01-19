@@ -1,0 +1,52 @@
+* {
+    margin: 50px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background: #ff1493;
+    padding: 50px; /* tamanho ou expanção, deixar maior */
+  
+}
+
+/* padding ---> espanção :interna
+   margin  ---> espanção :externa */
+
+.box-2 {
+    width: 50px;
+    height: 50px;
+    background: #9932cc;
+    margin: 70px; /* espaçamento externo deia um ojeto longe do outro */
+    
+}
+
+.box-3 {
+    width: 50px;
+    height: 50px;
+    background: greenyellow;
+    margin-top: 50px;/*     TOP    ---> Aplica em cima  */
+    margin-bottom: 60px;/*  Botton ---> Aplica em Baixo */
+    margin-right: 40px;  /*  right ---> Aplica em lado direito */
+    margin-left: 30px;    /*  right ---> Aplica em lado esquerdo */
+}
+
+.box-4 {
+    width: 50px;
+    height: 50px;
+    background: blue;
+    padding-top: 50px;/*     TOP    ---> Aplica em cima  */
+    padding-bottom: 60px;/*  Botton ---> Aplica em Baixo */
+    padding-right: 40px;  /*  right ---> Aplica em lado direito */
+    padding-left: 30px;    /*  right ---> Aplica em lado esquerdo */
+}
+
+.box-5 {
+    width: 50px;
+    height: 50px;
+    background: blue;
+    margin: 10px 50px 30px 5px;
+        /*  12hs 15hs 18hs 21hs */
+    /* pode ser usado para PADDIN E MARGIN */
+
+}
